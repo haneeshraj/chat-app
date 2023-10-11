@@ -1,3 +1,5 @@
 import { io } from 'socket.io-client';
 
-export const socket = io('/');
+const URL = undefined;
+
+export const socket = io(URL);
